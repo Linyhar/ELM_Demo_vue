@@ -1,0 +1,130 @@
+.register_container{
+    margin: 3vw 0 0 2vw;
+}
+.register_container li{
+    display: flex;
+    width: 100%;
+    height: 10vw;
+}
+
+/* 注册信息 */
+.register_container .rgst-infmbox .rgst-infmlable{
+    font-size: 5vw;
+    width: 25vw;
+    height: auto;
+	font-weight: 500;
+	color: #666;
+	text-align: left;
+}
+.register_container .rgst-infmbox .rgst-inputbox input{
+    width: 65vw;
+    height: 7vw;
+    border: 0;
+    border-bottom: solid 3px #DDD;
+    font-size: 4vw;
+}
+.register_container .rgst-infmbox .rgst-inputbox input:focus { 
+    outline:none;  
+}
+/* ---性别 */
+.register_container .rgst-infmbox .rgst-sexinputbox{ 
+    font-size: 5vw;
+    display: flex;
+}
+.register_container .rgst-infmbox .rgst-sexinputbox .sexbox{ 
+    width: 20vw;
+}
+.register_container .rgst-infmbox .rgst-sexinputbox .sexbox input { 
+    width: 4vw;
+    height: 4vw;
+}
+
+/* 验证码部分  */
+.vrft_codebox {
+    display: flex;
+    height: 8vw;
+}
+.vrft_codebox label{
+    width: 20vw;
+    font-size: 5vw;
+    color: #666;
+    margin-left: 2vw;
+}
+.vrft_codebox .vrft_code_inputbox input{
+    width: 20vw;
+    height: 80%;
+    border: 2px solid #DDD;
+    font-size: 5vw;
+    /* border-bottom: 2px solid #DDD; */
+}
+.vrft_codebox .vrft_code_inputbox input:focus{
+    outline: none;
+}
+.vrft_codebox .vrft_code_imgbox img{
+    margin-left: 2vw;
+    width: 20vw;
+    height: 100%;
+}
+
+
+/* 注册和区登录按钮设置 */
+.button_box{
+    margin-top: 10vw;
+}
+.button_box li{
+    width: 90%;
+    height: 10vw;
+    margin: 3vw auto;
+}
+.button_box .button_item input{
+    width: 100%;
+    height: 100%;
+    font-size: 4vw;
+    border: 0;
+    border-radius: 5px;
+}
+.button_box .button_item input[value="立即注册"]{
+   background-color: #38CA73;
+}
+.button_box .button_item input[value="去登录"]{
+    background-color: #EFEFEF;
+}
+
+
+
+/* 提示框层设置 */
+#tips{
+    display: none;
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    left: 25vw;
+    top: 30vw;
+    
+    border: 0.3vw solid black;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    padding: 5vw 2vw;
+    z-index: 1000;
+    text-align: center;
+}
+#tips h3{
+    font-size: 5vw;
+    margin-top: 3vw;
+}
+#tips #close_bt{
+   width: 35vw;
+   height: 9vw;
+   color: #fcfcfc;
+   background-color: #0bcce6;
+   border-radius: 5px;
+   border: 0;
+   font-size: 5vw;
+   margin-top: 8vw;
+}
+
+
+
+
+
+

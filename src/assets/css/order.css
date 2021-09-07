@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.top-tips{
+    width: 97%;
+    font-size: 0.1vw;
+    background-color: rgb(255, 234, 206);
+    text-align: center;
+    color: rgb(255, 137, 59);
+    border-radius: 5px;
+    margin: 1vw auto;
+     
+}
+
+
+
+.address-messge-box{
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 1vw auto;
+    padding: 2vw 0 2vw 3vw;
+    background-image: linear-gradient(to bottom right, rgb(128, 225, 255) , rgb(236, 236, 236));
+}
+.address-messge-box .messge{
+    height: 13vw;
+    display: flex;
+}
+.address-messge-box .messge .address{
+    width: 95%;
+    font-size: 5vw;
+    font-weight: 600;
+    display: flex;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    /* white-space:nowrap; */
+}
+
+
+.orderContent{
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    /* text-align: center; */
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 1vw auto;
+    padding: 2vw 0 2vw 2vw;
+}
+#orderList li{
+    height: 10VW;
+    margin: 2vw auto;
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: space-between;
+}
+#orderList li img{
+    width: 15%;
+    height: 10vw;
+}
+#orderList li .footname{
+    /* flex-grow:1; */
+    width: 48vw;
+    height: 10vw;
+    line-height: 10vw;
+    overflow: hidden;
+    text-overflow:ellipsis;  
+    white-space:nowrap; 
+    font-size: 5vw;
+}
+#orderList li .footnum{
+    width: 12vw;
+    height: 10vw;
+    line-height: 10vw;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    font-size: 4.5vw;
+}
+#orderList li .footprice{
+    width: 15vw;
+    height: 10vw;
+    line-height: 10vw;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    font-size: 4.5vw;
+}
+
+
+
+
+/****************** 购物车部分 ******************/
+.cart{
+	width: 100%;
+	height: 14vw;
+	position: fixed;
+	left: 0;
+	bottom: 0;	
+	display: flex;
+}
+.cart .cart-left{
+	flex: 2;
+	background-color: #505051;
+	display: flex;
+}
+
+.cart .cart-left .cart-left-info p:first-child{
+	font-size: 4.5vw;
+	color: #fff;
+	margin-top: 1vw;
+    margin-left: 5vw;
+}
+.cart .cart-left .cart-left-info p{
+	font-size: 2.8vw;
+	color: #AAA;
+}
+
+.cart .cart-right .cart-right-item{
+	width: 30vw;
+	height: 100%;
+	background-color: #38CA73;
+	color: #fff;
+	font-size: 4.5vw;
+	font-weight: 700;
+	user-select: none;
+	cursor: pointer;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

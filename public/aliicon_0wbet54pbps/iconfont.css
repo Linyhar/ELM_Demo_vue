@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2749440 */
+  src: url('iconfont.woff2?t=1629168252188') format('woff2'),
+       url('iconfont.woff?t=1629168252188') format('woff'),
+       url('iconfont.ttf?t=1629168252188') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dingdan:before {
+  content: "\e6e4";
+}
+
+.icon-kefu:before {
+  content: "\e635";
+}
+
+.icon-open:before {
+  content: "\e60d";
+}
+
+.icon-icon-test:before {
+  content: "\e664";
+}
+
+.icon-icon-test1:before {
+  content: "\e666";
+}
+
+.icon-touxiang:before {
+  content: "\e620";
+}
+
+.icon-kefu1:before {
+  content: "\e6ab";
+}
+
+.icon-zhankai:before {
+  content: "\e60a";
+}
+
+.icon-shouqi:before {
+  content: "\e642";
+}
+
+.icon-qiaquan:before {
+  content: "\e613";
+}
+
+.icon-shezhi:before {
+  content: "\e6c6";
+}
+
+.icon-shezhi1:before {
+  content: "\e7bb";
+}
+
+.icon-shoucang:before {
+  content: "\e614";
+}
+
+.icon-icon:before {
+  content: "\e64c";
+}
+
+.icon-naozhong:before {
+  content: "\e623";
+}
+
+.icon-shangwuhezuo:before {
+  content: "\e63f";
+}
+
+.icon-dizhi:before {
+  content: "\e628";
+}
+
+.icon-zihangche3:before {
+  content: "\e6d6";
+}
+
+.icon-elment:before {
+  content: "\e8ca";
+}
+
+.icon-tongyi-31:before {
+  content: "\e629";
+}
+
+.icon-gongyi:before {
+  content: "\e744";
+}
+
+.icon-dizhi1:before {
+  content: "\e60e";
+}
+
+.icon-shoucang1:before {
+  content: "\f5af";
+}
+
+.icon-gouwuche:before {
+  content: "\e60b";
+}
+
+.icon-shouye:before {
+  content: "\e65b";
+}
+
+.icon-wode:before {
+  content: "\e65c";
+}
+
+.icon-faxian:before {
+  content: "\e65d";
+}
+
+.icon-shezhi2:before {
+  content: "\e661";
+}
+
+.icon-bianji:before {
+  content: "\e662";
+}
+
+.icon-houtui:before {
+  content: "\e66e";
+}
+
+.icon-qianjin:before {
+  content: "\e66f";
+}
+
+.icon-Left:before {
+  content: "\e61f";
+}
+
+.icon-Right:before {
+  content: "\e621";
+}
+

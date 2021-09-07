@@ -1,0 +1,11 @@
+/* 适用于login和register页面 */
+header{
+    font-size: 4vw;  
+    background-color: #0097FF;
+    color: #ffffff;
+    width: 100%;
+    height: 12vw;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}

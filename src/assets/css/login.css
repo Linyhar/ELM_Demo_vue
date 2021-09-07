@@ -1,0 +1,85 @@
+.acnt_pswd-container li{
+    margin: 5vw auto;
+    display: flex;
+    width: 100%;
+    height: 7vw;
+}
+
+/* 账号与密码 */
+.acnt_pswd-container .acnt_pswdbox .acnt_pswdlable{
+    font-size: 6vw;
+    width: 20vw;
+    height: auto;
+	font-weight: 500;
+	color: #666;
+	text-align: center;
+}
+.acnt_pswd-container .acnt_pswdbox .acnt_pswdinputbox input:focus { 
+    outline:none;  
+}
+.acnt_pswd-container .acnt_pswdbox .acnt_pswdinputbox input{    
+    width: 70vw;
+    height: 7vw;
+    border: 0;
+    border-bottom: solid 3px #DDD;
+    font-size: 4vw;
+}
+
+
+/* 登录按钮设置 */
+.button_box{
+    margin-top: 10vw;
+}
+.button_box li{
+    width: 90%;
+    height: 10vw;
+    margin: 3vw auto;
+}
+.button_box .button_item input{
+    width: 100%;
+    height: 100%;
+    font-size: 4vw;
+    border: 0;
+    border-radius: 5px;
+}
+.button_box .button_item input[value="登录"]{
+   background-color: #38CA73;
+}
+.button_box .button_item input[value="去注册"]{
+    background-color: #EFEFEF;
+ }
+
+
+
+/* 提示框 */
+ #tips{
+    display: none;
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    left: 25vw;
+    top: 30vw;
+    
+    border: 0.3vw solid black;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    padding: 5vw 2vw;
+    z-index: 1000;
+    text-align: center;
+}
+#tips #tip-text{    
+    line-height: 4;
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+}
+#tips #close_bt{
+   width: 35vw;
+   height: 9vw;
+   color: #fcfcfc;
+   background-color: #0bcce6;
+   border-radius: 5px;
+   border: 0;
+   font-size: 5vw;
+   margin-top: 3vw;
+}
